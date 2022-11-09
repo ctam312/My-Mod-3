@@ -4,10 +4,13 @@
     background-color: palegoldenrod;
     border: solid black 2px;
     font-size: 42pt;
-
+    
     /* Phase 1 */
-
-    /* Your code here */
+    
+    /* Your code here align=updown justify=leftright */
+    display: flex;
+    align-items:center; 
+    justify-content: center;
 }
 
 .example2 {
@@ -18,6 +21,9 @@
     /* Phase 2 */
 
     /* Your code here */
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
 }
 
 .example2 > button {
@@ -27,6 +33,7 @@
 .example2 > input {
     font-size: 24px;
     background-color: teal;
+    margin: 8px;
     color: lightcyan;
 }
 
@@ -43,24 +50,42 @@
     background-color: #9999ff;
     border-radius: 25px;
     padding: 12px;
-
+    
     /* Phase 3 */
-
+    
     /* Your code here */
+    /* display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    justify-content:flex-end;  */
+    flex-basis: 30%;
+    flex-shrink: 0;
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-end;
+    
 }
 
 .example4 {
     /* Phase 4 - Part 1 of 2 */
 
     /* Your code here */
+    display: flex;
+    
 }
 
 .sidebar {
     background-color: black;
-    padding: 8px;
-
+    padding: 10px;
+    
     /* Phase 4 - Part 2 of 2 */
-
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
     /* Your code here */
 }
 .content-area {

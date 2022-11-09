@@ -1,0 +1,49 @@
+.upper__right{
+    display: inline-block;
+    
+}
+
+.upper__right{
+    float: right;
+}
+
+.get-started{
+    border: 4px black solid;
+    padding: 4px;
+}
+
+.nav__lower{
+    border: 4px black solid;
+    border-left: 0px;
+    border-right: 0px;
+    padding: 20px;
+    text-align: center;
+}
+
+.nav__lower a{
+    padding: 20px;
+}
+
+.content {
+    text-align: center;
+    margin: auto 200px auto
+}
+
+.content p{
+    text-align: justify;
+}
+
+.content h2{
+    text-align: left;
+    padding-left: 10px;
+}
+
+.external_links{
+    text-align: justify
+}
+
+.grid{
+    text-align: center;
+    fl
+}
+

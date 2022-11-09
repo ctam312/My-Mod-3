@@ -149,3 +149,40 @@ h3, .bk7 {
 .ad2 {
     margin-left: 50%;
 }
+
+#page-title {
+    font-weight: bold;
+}
+
+.pagenum {
+    position: absolute;
+    right: 1%;
+    font-size: small;
+}
+
+p{
+    text-align: justify;
+    margin-top: .75em;
+    margin-bottom: .75em;
+    
+}
+
+pre{
+    width: fit-content;
+    margin: auto;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.td2 a{
+text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+pre a{
+    color: black;
+}
