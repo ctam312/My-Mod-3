@@ -73,6 +73,12 @@ html, body, div {
     grid-template-columns: repeat(6, auto);
     grid-template-rows: repeat(3, auto);
     grid-auto-flow: column;
+    justify-content: ;
     
     
+}
+
+#call1{
+    display: flex;
+    justify-content: center ;
 }
