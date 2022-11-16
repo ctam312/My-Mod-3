@@ -29,10 +29,10 @@ function liftWeights() {
   // .then and .catch
 function workout() {
   stretch()
-    .then(runOnTreadmill)
-    .then(liftWeights)
-    .then(() => console.log("done working out"))
-    .catch((err) => console.log(err));
+    console.log(await(runOnTreadmill));
+    console.log(await(liftWeights));
+    console.log(await(console.log("done working out")));
+    const four = ().catch((err) => console.log(err));
 }
 
 /* ============================ TEST YOUR CODE ============================
