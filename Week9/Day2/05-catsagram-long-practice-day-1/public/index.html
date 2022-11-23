@@ -5,21 +5,24 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 		<link rel="stylesheet" type="text/css" href="styles.css" media="screen" />
 		<title>Catstagram</title>
+    <script src="./events.js"></script> </script>
+    
 	</head>
-
+  
 	<body>
     
     <button id="generate" class="btn btn-primary my-2 generate_btn">
       Summon Feline
 		</button>
 		<div class="catsImgDiv"></div>
-		<script src="./script.js"></script>
+    <script src="./script.js"></script>
 
-    <div class="comments">
-      <button onclick="document.getElementById('myInput').value = ''">
-        Delete Comment
-      </button>
-      <input type="text" value="Type Comment Here" id="myInput" />
+    <div class="comment">
+      <div>
+          <input id="list-add" placeholder="Enter comment!" />
+          <button id="add-item" type="submit">Submit Comment</button>
+      </div>
+      <ul></ul>
     </div>
     
     <div class="vote">

@@ -28,7 +28,7 @@
     margin-right: auto;
 }
 
-.comments{
+.comment{
     display: flex;
     flex-direction: column-reverse;
     width: 200px;
@@ -40,3 +40,4 @@
 #myInput{
     margin-bottom: 10px;
 }
+
