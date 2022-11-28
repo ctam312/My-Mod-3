@@ -20,3 +20,15 @@ function fetchPics(){
     })
     .catch(err => console.log(err))
 }
+
+var counters = 0;
+
+function up() {
+    counters++;
+    document.getElementById('counter').innerHTML = counters;
+}
+
+function down() {
+    counters--;
+    document.getElementById('counter').innerHTML = counters;
+}

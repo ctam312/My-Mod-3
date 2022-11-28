@@ -26,9 +26,9 @@
     </div>
     
     <div class="vote">
+      <p id="counter">0</p>
 
-
-      <button id="up" onclick="audio.play()">CUTE</button>
+      <button id="up" onclick="audio.play(); up()">CUTE</button>
       <script type="text/javascript"> 
       const audio = new Audio();
       audio.src = "./wow.mp3"
@@ -36,7 +36,7 @@
 
 
 
-      <button id="down" onclick="poop.play()">FUGLY</button>
+      <button id="down" onclick="poop.play(); down()">FUGLY</button>
       <script type="text/javascript"> 
         const poop = new Audio();
         poop.src = "./fugly.mp3"
